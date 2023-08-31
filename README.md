@@ -11,7 +11,8 @@ shift.click wants to build an authentication system that allows medical professi
 ## Requirements
 
 1. The professional should be able to login with their email address and password.
-2. If the professional has not logged in recently, send them our "welcome back" email.
-3. If the professional is deactivated, send them our "please reactivate" email.
-4. If the professional supplies invalid credentials, notify us via a Slack channel.
-5. All activities / decisions should be logged for auditing purposes.
+2. Passwords must be hashed in the database and cannot be stored plaintext.
+3. If the professional has not logged in recently, send them our "welcome back" email.
+4. If the professional is deactivated, send them our "please reactivate" email.
+5. If the professional supplies invalid credentials, notify us via a Slack channel.
+6. All activities / decisions should be logged for auditing purposes.
