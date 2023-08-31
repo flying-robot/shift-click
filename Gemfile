@@ -3,6 +3,8 @@
 source "https://rubygems.org"
 
 gem 'activesupport'
+gem 'amazing_print'
 gem 'interactor'
+gem 'ougai'
 gem 'pry'
 gem 'wisper'

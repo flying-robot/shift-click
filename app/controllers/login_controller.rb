@@ -2,6 +2,8 @@
 
 class LoginController
   def self.create(params)
-    # TODO
+    LoginUser.call(
+      email:    params[:email],
+      password: params[:password]).success?
   end
 end

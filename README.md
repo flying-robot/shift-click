@@ -14,5 +14,9 @@ shift.click wants to build an authentication system that allows medical professi
 2. Passwords must be hashed in the database and cannot be stored plaintext.
 3. If the professional has not logged in recently, send them our "welcome back" email.
 4. If the professional is deactivated, send them our "please reactivate" email.
-5. If the professional supplies invalid credentials, notify us via a Slack channel.
-6. All activities / decisions should be logged for auditing purposes.
+5. All activities / decisions should be logged for auditing purposes.
+
+## TODOs
+
+1. If the professional supplies invalid credentials, notify us via a Slack channel.
+2. Fix a bug where "welcome back" emails are being sent to deactivated professionals.

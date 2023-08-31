@@ -12,8 +12,8 @@ module User
         last_name:     'Professional',
         email:         'test@example.com',
         groups:        ['professionals'],
-        tags:          ['activated', 'highly-rated'],
-        last_login_at: 1.week.ago.to_s,
+        tags:          ['deactivated', 'highly-rated'],
+        last_login_at: 1.week.ago,
       }
     else
       nil
